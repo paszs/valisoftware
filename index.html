@@ -29,7 +29,6 @@
     overflow-x: hidden;
   }
 
-  /* NAV */
   nav {
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -48,10 +47,8 @@
   nav a { text-decoration: none; color: var(--gray); font-size: 0.875rem; font-weight: 400; transition: color 0.2s; }
   nav a:hover { color: var(--black); }
 
-  /* SECTIONS */
   section { padding: 6rem 5vw; }
 
-  /* HERO */
   .hero {
     min-height: 100vh;
     display: flex;
@@ -97,7 +94,6 @@
   }
   .btn-primary:hover { background: #1f1f1f; }
 
-  /* ABOUT */
   .about { background: var(--black); color: var(--white); }
   .about h2 { font-family: 'DM Serif Display', serif; font-size: clamp(1.75rem, 3vw, 2.5rem); margin-bottom: 1.5rem; color: var(--white); }
   .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
@@ -107,7 +103,6 @@
   .stat-num { font-family: 'DM Serif Display', serif; font-size: 2.5rem; color: var(--gold-light); line-height: 1; }
   .stat-label { font-size: 0.8rem; color: rgba(248,247,244,0.5); margin-top: 0.25rem; letter-spacing: 0.05em; }
 
-  /* PRODUCTS */
   .products h2 { font-family: 'DM Serif Display', serif; font-size: clamp(1.75rem, 3vw, 2.5rem); margin-bottom: 0.75rem; }
   .products-intro { color: var(--gray); margin-bottom: 3rem; max-width: 560px; }
   .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
@@ -136,7 +131,6 @@
   .product-price span:first-child { font-family: 'DM Serif Display', serif; font-size: 1.5rem; }
   .product-price small { font-size: 0.8rem; color: var(--gray); }
 
-  /* TEAM */
   .team { background: #f1efe8; }
   .team h2 { font-family: 'DM Serif Display', serif; font-size: clamp(1.75rem, 3vw, 2.5rem); margin-bottom: 0.75rem; }
   .team-intro { color: var(--gray); margin-bottom: 3rem; }
@@ -147,7 +141,6 @@
   .team-card .role { font-size: 0.8rem; color: var(--gold); margin-bottom: 0.5rem; }
   .team-card p { font-size: 0.875rem; color: var(--gray); }
 
-  /* CONTACT */
   .contact { border-top: 1px solid var(--border); }
   .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
   .contact h2 { font-family: 'DM Serif Display', serif; font-size: clamp(1.75rem, 3vw, 2.5rem); margin-bottom: 0.75rem; }
@@ -157,11 +150,10 @@
   .contact-info a:hover { color: var(--gold); }
   .contact-label { font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gray); margin-bottom: 0.2rem; }
 
-  /* IMPRESSUM */
   .impressum { background: var(--black); color: rgba(248,247,244,0.5); font-size: 0.8rem; padding: 3rem 5vw; }
   .impressum h3 { color: rgba(248,247,244,0.9); font-size: 0.9rem; font-weight: 500; margin-bottom: 0.75rem; }
   .impressum-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; }
-  .impressum p { line-height: 1.6; }
+  .impressum p { line-height: 1.8; }
   .impressum a { color: rgba(248,247,244,0.5); }
   .copy { border-top: 1px solid rgba(255,255,255,0.1); margin-top: 2.5rem; padding-top: 1.5rem; font-size: 0.75rem; }
 
@@ -183,7 +175,6 @@
   </ul>
 </nav>
 
-<!-- HERO -->
 <section class="hero">
   <div class="hero-inner">
     <div class="hero-eyebrow">SaaS &middot; B2B &middot; Österreich</div>
@@ -193,37 +184,35 @@
   </div>
 </section>
 
-<!-- ABOUT -->
 <section class="about" id="about">
   <div class="about-grid">
     <div>
       <h2>Wer wir sind</h2>
-      <p>ValiSoftware ist ein österreichisches Software-Unternehmen mit Sitz in Wien, das sich auf die Entwicklung und den Vertrieb von SaaS-Lösungen für die Dienstleistungsbranche spezialisiert hat. Wir verbinden technische Exzellenz mit tiefem Verständnis für die Bedürfnisse lokaler Betriebe.</p>
+      <p>ValiSoftware ist ein österreichisches Software-Projekt mit Sitz in Wien, das sich auf die Entwicklung und den Vertrieb von SaaS-Lösungen für die Dienstleistungsbranche spezialisiert hat. Wir verbinden technische Exzellenz mit tiefem Verständnis für die Bedürfnisse lokaler Betriebe.</p>
       <br>
       <p>Unser Ansatz: Produkte, die man in Minuten versteht – und die Monate an manueller Arbeit sparen.</p>
     </div>
     <div class="about-stats">
       <div class="stat">
-        <div class="stat-num">120+</div>
-        <div class="stat-label">Aktive Kunden</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num">2</div>
-        <div class="stat-label">SaaS-Produkte</div>
-      </div>
-      <div class="stat">
         <div class="stat-num">AT/DE</div>
-        <div class="stat-label">Märkte</div>
+        <div class="stat-label">Zielmärkte</div>
       </div>
       <div class="stat">
-        <div class="stat-num">2024</div>
-        <div class="stat-label">Gegründet</div>
+        <div class="stat-num">2026</div>
+        <div class="stat-label">Gestartet</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">B2B</div>
+        <div class="stat-label">Fokus</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">SaaS</div>
+        <div class="stat-label">Modell</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- PRODUCTS -->
 <section class="products" id="products">
   <h2>Unsere Produkte</h2>
   <p class="products-intro">Cloudbasierte B2B-Software mit monatlicher Abrechnung. Keine Mindestlaufzeiten, keine versteckten Kosten.</p>
@@ -231,7 +220,7 @@
     <div class="product-card">
       <div class="product-tag">Terminsoftware</div>
       <h3>Slotify</h3>
-      <p>Terminmanagement und automatische Erinnerungen für Salons, Studios und Dienstleister. Reduziert No-Shows um bis zu 70 % und integriert WhatsApp- sowie E-Mail-Benachrichtigungen direkt in den Arbeitsalltag.</p>
+      <p>Terminmanagement und automatische Erinnerungen für Salons, Studios und Dienstleister. Reduziert No-Shows durch integrierte WhatsApp- und E-Mail-Benachrichtigungen direkt im Arbeitsalltag.</p>
       <div class="product-price">
         <span>ab €19</span> <small>&nbsp;/ Monat</small>
       </div>
@@ -239,21 +228,19 @@
   </div>
 </section>
 
-<!-- TEAM -->
 <section class="team" id="team">
   <h2>Das Team</h2>
-  <p class="team-intro">Gegründet von Entwicklern, die selbst Kunden mit unnötigen Softwarekosten frustriert waren.</p>
+  <p class="team-intro">Gegründet von einem Entwickler, der lokalen Betrieben unnötig komplizierte Software ersparen wollte.</p>
   <div class="team-grid">
     <div class="team-card">
-      <div class="avatar">V</div>
+      <div class="avatar">VR</div>
       <h3>Valentin Röhrer</h3>
-      <div class="role">Chief Technology Officer &amp; Gründer</div>
-      <p>Verantwortlich für Produktentwicklung, Infrastruktur und technische Strategie. Studium der Technischen Informatik, JKU Linz.</p>
+      <div class="role">Gründer &amp; Chief Technology Officer</div>
+      <p>Verantwortlich für Produktentwicklung, Infrastruktur und technische Strategie. Studium der Technischen Informatik an der JKU Linz.</p>
     </div>
   </div>
 </section>
 
-<!-- CONTACT -->
 <section class="contact" id="contact">
   <div class="contact-grid">
     <div>
@@ -263,11 +250,7 @@
     <div class="contact-info">
       <div>
         <div class="contact-label">E-Mail</div>
-        <a href="mailto:office@valisoftware.at">office@valisoftware.at</a>
-      </div>
-      <div>
-        <div class="contact-label">Website</div>
-        <a href="https://valisoftware.at">valisoftware.at</a>
+        <a href="mailto:valentin.roehrer@gmail.com">valentin.roehrer@gmail.com</a>
       </div>
       <div>
         <div class="contact-label">Standort</div>
@@ -277,37 +260,23 @@
   </div>
 </section>
 
-<!-- IMPRESSUM / FOOTER -->
 <footer class="impressum" id="impressum">
   <div class="impressum-grid">
     <div>
       <h3>Impressum</h3>
       <p>
-        ValiSoftware e.U.<br>
-        Inhaber: Valentin Röhrer<br>
-        [Straße Hausnummer]<br>
-        [PLZ] Wien, Österreich<br><br>
-        Unternehmensgegenstand: Entwicklung und Vertrieb von Software (SaaS)<br>
-        Rechtsform: Einzelunternehmen
-      </p>
-    </div>
-    <div>
-      <h3>Behörde &amp; Register</h3>
-      <p>
-        Gewerbebehörde: Magistrat der Stadt Wien<br>
-        Mitglied der WKO Wien<br>
-        Gewerbe: Dienstleistungen in der automatischen Datenverarbeitung<br><br>
-        UID-Nr.: ATU[XXXXXXXX]<br>
-        GISA-Nr.: [falls vorhanden]
+        Valentin Röhrer<br>
+        Ganglbauergasse 21-23<br>
+        1160 Wien, Österreich<br><br>
+        E-Mail: valentin.roehrer@gmail.com<br><br>
+        Hinweis: Diese Website dient der Vorstellung von Softwareprojekten in Entwicklung.
       </p>
     </div>
     <div>
       <h3>Datenschutz</h3>
       <p>
-        Verantwortlicher i.S.d. DSGVO:<br>
-        Valentin Röhrer<br>
-        [E-Mail]<br><br>
-        Es werden keine personenbezogenen Daten ohne Einwilligung gespeichert. Details in unserer <a href="#">Datenschutzerklärung</a>.
+        Diese Website verwendet keine Cookies und erhebt keine personenbezogenen Daten. Es werden keine Tracking-Tools oder Analyse-Dienste eingesetzt.<br><br>
+        Bei Kontaktaufnahme per E-Mail werden die übermittelten Daten ausschließlich zur Bearbeitung Ihrer Anfrage verwendet.
       </p>
     </div>
     <div>
@@ -318,7 +287,7 @@
     </div>
   </div>
   <div class="copy">
-    &copy; 2024 ValiSoftware e.U. &middot; Alle Rechte vorbehalten &middot; <a href="#">Datenschutz</a> &middot; <a href="#impressum">Impressum</a>
+    &copy; 2026 Valentin Röhrer &middot; Alle Rechte vorbehalten &middot; <a href="#impressum">Impressum</a>
   </div>
 </footer>
 
